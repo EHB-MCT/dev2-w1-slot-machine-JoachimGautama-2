@@ -15,7 +15,6 @@ function pullLever() {
 }
 
 function showSlots() {
-  console.log("yup");
   let slots = "";
   for (let i = 0; i < slotMachine.slots.length; i++) {
     slots += `<span class='${slotMachine.symbols[slotMachine.slots[i]]}'>${
@@ -26,7 +25,6 @@ function showSlots() {
 }
 
 function showGameResult() {
-  console.log("noGame");
   slotMachine.calculateStatus();
   let msg;
   if (slotMachine.win) {

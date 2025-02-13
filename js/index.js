@@ -27,8 +27,14 @@ function showSlots() {
 
 function showGameResult() {
   console.log("noGame");
-  //   if(!win){
-  // show lose}
+  slotMachine.calculateStatus();
+  let msg;
+  if (slotMachine.win) {
+    msg = "you win";
+  } else {
+    msg = "you lose";
+  }
+  document.getElementById("status").innerHTML = msg;
   // TODO: show a win or lose message in HTML
 }
 

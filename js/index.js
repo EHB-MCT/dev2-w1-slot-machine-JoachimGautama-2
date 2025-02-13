@@ -8,7 +8,7 @@ function init() {
 
 function pullLever() {
   console.log("lever bitch!");
-  // TODO: reset the machine (you may skip this step for now, and focus on getting the machine to work first)
+  slotMachine.reset();
   slotMachine.spin();
   showSlots();
   showGameResult();

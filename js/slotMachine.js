@@ -7,7 +7,8 @@ export const slotMachine = {
     return pos;
   },
   reset: function () {
-    // TODO: Empty out the slots and reset 'win'-boolean
+    this.slots = [];
+    this.win = true;
   },
   symbols: ["♠", "♥", "♣", "♦"],
   slots: [],

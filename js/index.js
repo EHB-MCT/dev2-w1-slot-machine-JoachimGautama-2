@@ -7,7 +7,6 @@ function init() {
 }
 
 function pullLever() {
-  console.log("lever bitch!");
   slotMachine.reset();
   slotMachine.spin();
   showSlots();

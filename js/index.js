@@ -23,11 +23,12 @@ function showSlots() {
     }</span>`;
   }
   document.getElementById("result").innerHTML = slots;
-  // TODO: show the slot symbols in HTML
 }
 
 function showGameResult() {
   console.log("noGame");
+  //   if(!win){
+  // show lose}
   // TODO: show a win or lose message in HTML
 }
 
